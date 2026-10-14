@@ -92,3 +92,6 @@ a.cx-step-action:hover{color:var(--cx-accent)}
 
 /* Closed-test device list */
 .cx-test-devices{margin:32px 0 36px;padding:24px;background:var(--cx-bg);border-radius:20px}.cx-test-devices h3{font-size:22px;margin:0 0 10px}.cx-test-devices p{font-size:15px;line-height:1.8;margin:0}.cx-test-devices dl{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin:24px 0}.cx-test-devices dt{font-weight:700;margin-bottom:6px}.cx-test-devices dd{margin:0;font-size:15px;line-height:1.9}.cx-test-devices .cx-device-note{font-size:13px}.cx-test-devices a{text-decoration:underline;text-underline-offset:3px}@media(max-width:600px){.cx-test-devices{padding:20px}.cx-test-devices dl{grid-template-columns:1fr;gap:18px}}
+
+/* Samsung Internet can force dark rendering without changing the media query. */
+html.samsung-browser .cx h1 em,html.samsung-browser .cx h2 em{background:none!important;color:var(--cx-accent)!important;-webkit-text-fill-color:currentColor!important}
