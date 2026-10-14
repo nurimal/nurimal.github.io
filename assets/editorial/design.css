@@ -78,3 +78,10 @@ a.cx-step-action:hover{color:var(--cx-accent)}
 .cx-join-notes{display:block;max-width:960px;margin-top:24px;font-size:14px;line-height:1.85}
 .cx-join-notes p{margin:0}
 .cx-join-notes p+p{margin-top:12px}
+
+/* Brand blue-to-teal headline; solid text remains the fallback. */
+.cx .cx-hero h1 em{color:#007b91}
+@supports ((background-clip:text) or (-webkit-background-clip:text)){.cx .cx-hero h1 em{background:linear-gradient(110deg,#0067d9 0%,#007c91 55%,#00836d 100%);background-clip:text;-webkit-background-clip:text;color:transparent;-webkit-text-fill-color:transparent}}
+@media(prefers-color-scheme:dark){.cx .cx-hero h1 em{color:#52dfcf;background-image:linear-gradient(110deg,#68adff 0%,#41d6ef 55%,#4be4ba 100%)}}
+@media(forced-colors:active){.cx .cx-hero h1 em{background:none;color:CanvasText;-webkit-text-fill-color:CanvasText}}
+.cx-feedback{padding-top:48px;padding-bottom:64px;max-width:960px}.cx-feedback h2{font-size:clamp(28px,4vw,44px)}.cx-feedback>p{line-height:1.8}.cx-feedback iframe{width:100%;height:920px;border:0;display:block;background:#fff;border-radius:16px;margin-top:24px}.cx-feedback a{text-decoration:underline;text-underline-offset:4px}
