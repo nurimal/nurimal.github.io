@@ -1,0 +1,45 @@
+# 누리말 사전 1
+이름: 게임
+원어: en
+번역: ko
+분야: 게임
+배포: 2026-10-11
+respawn=리스폰
+nerf=너프
+patch notes=패치 노트
+loot box=확률형 아이템
+loot boxes=확률형 아이템
+microtransactions=소액 결제
+battle pass=배틀 패스
+season pass=시즌 패스
+battle royale=배틀로얄
+open world=오픈 월드
+side quest=서브 퀘스트
+side quests=서브 퀘스트
+main quest=메인 퀘스트
+skill tree=스킬 트리
+cooldown=쿨타임
+critical hit=치명타
+aggro=어그로
+AFK=잠수
+lag=렉
+headshot=헤드샷
+healer=힐러
+boss fight=보스전
+speedrun=스피드런
+cutscene=컷신
+jump scare=점프 스케어
+hitbox=히트박스
+easter egg=이스터 에그
+PvP=PvP
+early access=앞서 해보기 # 스팀 한국어 표기
+Minecraft=마인크래프트
+Fortnite=포트나이트
+League of Legends=리그 오브 레전드
+Valorant=발로란트
+Overwatch=오버워치 # 2026-02 '2'를 뺀 이름
+Roblox=로블록스
+Elden Ring=엘든 링
+Legend of Zelda=젤다의 전설
+Nintendo Switch=닌텐도 스위치
+Grand Theft Auto=그랜드 테프트 오토

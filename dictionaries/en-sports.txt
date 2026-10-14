@@ -1,0 +1,46 @@
+# 누리말 사전 1
+이름: 스포츠
+원어: en
+번역: ko
+분야: 스포츠
+배포: 2026-10-11
+hat trick=해트트릭
+stoppage time=추가 시간
+clean sheet=무실점 # 축구
+own goal=자책골
+penalty kick=페널티킥
+free kick=프리킥
+offside=오프사이드
+transfer window=이적 시장
+walk-off=끝내기 # 야구
+RBI=타점
+RBIs=타점
+strikeout=삼진
+strikeouts=삼진
+bullpen=불펜
+three-pointer=3점슛
+buzzer beater=버저비터
+triple-double=트리플더블
+MVP=MVP
+Son Heung-min=손흥민
+Kim Min-jae=김민재
+Lee Kang-in=이강인
+Hwang Hee-chan=황희찬
+Kim Ha-seong=김하성
+Lee Jung-hoo=이정후
+Shohei Ohtani=오타니 쇼헤이
+Ohtani=오타니
+Tottenham Hotspur=토트넘 홋스퍼
+Tottenham=토트넘
+Manchester United=맨체스터 유나이티드
+Manchester City=맨체스터 시티
+Liverpool=리버풀
+Chelsea=첼시
+Real Madrid=레알 마드리드
+Bayern Munich=바이에른 뮌헨
+Paris Saint-Germain=파리 생제르맹
+Los Angeles Dodgers=LA 다저스
+Dodgers=다저스
+Premier League=프리미어리그
+Champions League=챔피언스리그
+Super Bowl=슈퍼볼

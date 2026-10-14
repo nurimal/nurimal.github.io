@@ -1,0 +1,46 @@
+# 누리말 사전 1
+이름: 영화·드라마
+원어: en
+번역: ko
+분야: 영화·드라마
+배포: 2026-10-11
+Best Picture=작품상 # 시상식 부문
+Best Director=감독상
+Best Actor=남우주연상
+Best Actress=여우주연상
+Best Supporting Actor=남우조연상
+Best Supporting Actress=여우조연상
+box office=박스오피스
+sequel=속편
+prequel=프리퀄
+spin-off=스핀오프
+reboot=리부트
+remake=리메이크
+screenplay=각본
+cameo=카메오
+trailer=예고편
+binge-watch=정주행
+binge-watching=정주행
+plot twist=반전
+season finale=시즌 피날레
+Hollywood=할리우드
+Marvel=마블
+Pixar=픽사
+Disney=디즈니
+Netflix=넷플릭스
+Academy Awards=아카데미 시상식
+Oscars=오스카
+post-credits scene=쿠키 영상
+Avengers=어벤져스
+Spider-Man=스파이더맨
+Iron Man=아이언맨
+Star Wars=스타워즈
+Harry Potter=해리 포터
+Lord of the Rings=반지의 제왕
+Stranger Things=기묘한 이야기 # 넷플릭스 한국 제목
+Game of Thrones=왕좌의 게임
+Breaking Bad=브레이킹 배드
+Squid Game=오징어 게임
+Toy Story=토이 스토리
+Dark Knight=다크 나이트
+Oppenheimer=오펜하이머

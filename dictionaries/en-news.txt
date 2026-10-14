@@ -1,0 +1,42 @@
+# 누리말 사전 1
+이름: 뉴스·경제
+원어: en
+번역: ko
+분야: 뉴스·경제
+배포: 2026-10-11
+interest rate=금리
+interest rates=금리
+rate hike=금리 인상
+rate cut=금리 인하
+recession=경기 침체
+stock market=증시
+Treasury yields=미 국채 금리
+trade deficit=무역 적자
+tariffs=관세
+earnings=실적 # 기업 실적 발표
+fiscal year=회계연도
+bull market=강세장
+bear market=약세장
+IPO=기업공개(IPO)
+layoffs=감원
+trillion=조 # 수 단위, 1조
+White House=백악관
+Senate=상원
+House of Representatives=하원
+Supreme Court=대법원
+Treasury Secretary=재무장관
+Prime Minister=총리
+United Nations=유엔
+NATO=나토
+European Union=유럽연합
+sanctions=제재
+ceasefire=휴전
+breaking news=속보
+press conference=기자회견
+Federal Reserve=연방준비제도
+the Fed=연준 # 'fed(먹였다)'와 겹치지 않게 the까지 찾음
+Wall Street=월가
+Nasdaq=나스닥
+Kremlin=크렘린궁
+Secretary of State=국무장관
+Downing Street=다우닝가 # 영국 총리 관저

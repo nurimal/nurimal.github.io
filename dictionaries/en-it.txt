@@ -1,0 +1,40 @@
+# 누리말 사전 1
+이름: IT·기술
+원어: en
+번역: ko
+분야: IT
+배포: 2026-10-11
+AI=AI # 약어는 그대로
+GPU=GPU
+CPU=CPU
+API=API
+LLM=LLM
+SDK=SDK
+machine learning=머신러닝
+deep learning=딥러닝
+large language model=대규모 언어 모델
+neural network=신경망
+algorithm=알고리즘
+server=서버
+database=데이터베이스
+data center=데이터센터
+open source=오픈소스
+framework=프레임워크
+repository=저장소 # 코드 저장소
+pull request=풀 리퀘스트
+debug=디버그
+encryption=암호화
+token=토큰 # AI 모델의 글자 단위
+prompt=프롬프트 # AI 모델에 주는 지시문
+benchmark=벤치마크
+semiconductor=반도체
+operating system=운영체제
+browser=브라우저
+startup=스타트업
+smartphone=스마트폰
+OpenAI=오픈AI # 국내 언론 표기
+ChatGPT=챗GPT # 국내 언론 표기
+NVIDIA=엔비디아
+Microsoft=마이크로소프트
+Google=구글
+Samsung=삼성

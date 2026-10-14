@@ -1,0 +1,42 @@
+# 누리말 사전 1
+이름: 과학
+원어: en
+번역: ko
+분야: 과학
+배포: 2026-10-11
+black hole=블랙홀
+black holes=블랙홀
+Milky Way=우리은하
+light-year=광년
+light-years=광년
+exoplanet=외계 행성
+exoplanets=외계 행성
+supernova=초신성
+neutron star=중성자별
+dark matter=암흑물질
+dark energy=암흑에너지
+Big Bang=빅뱅
+quantum mechanics=양자역학
+general relativity=일반 상대성이론
+special relativity=특수 상대성이론
+particle accelerator=입자 가속기
+periodic table=주기율표
+natural selection=자연선택
+photosynthesis=광합성
+mitochondria=미토콘드리아
+immune system=면역계
+antibodies=항체
+placebo=위약
+peer review=동료 심사
+hypothesis=가설
+greenhouse gases=온실가스
+carbon dioxide=이산화탄소
+climate change=기후 변화
+Celsius=섭씨
+Fahrenheit=화씨
+astronaut=우주비행사
+astronauts=우주비행사
+DNA=DNA
+James Webb Space Telescope=제임스 웹 우주망원경
+International Space Station=국제우주정거장
+SpaceX=스페이스X

@@ -1,0 +1,40 @@
+# 누리말 사전 1
+이름: 유튜브·일상
+원어: en
+번역: ko
+분야: 유튜브·일상
+배포: 2026-10-11
+subscribe=구독
+like and subscribe=좋아요와 구독
+notification bell=알림 설정
+description box=설명란
+link in the description=설명란 링크
+comment section=댓글 창
+comments section=댓글 창
+vlog=브이로그
+unboxing=언박싱
+giveaway=경품 이벤트
+collab=콜라보
+sponsored by=협찬
+livestream=라이브 방송
+mukbang=먹방
+ASMR=ASMR
+life hack=생활 꿀팁
+life hacks=생활 꿀팁
+skincare routine=스킨케어 루틴
+morning routine=모닝 루틴
+grocery shopping=장보기
+takeout=포장 음식
+drive-thru=드라이브스루
+Black Friday=블랙 프라이데이
+Thanksgiving=추수감사절
+Gen Z=Z세대
+millennials=밀레니얼 세대
+side hustle=부업
+work from home=재택근무
+burnout=번아웃
+self-care=자기 관리
+road trip=자동차 여행
+meal prep=밀프렙
+Costco=코스트코
+Walmart=월마트
