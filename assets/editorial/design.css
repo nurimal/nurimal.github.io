@@ -75,7 +75,7 @@ a.cx-step-action:hover{color:var(--cx-accent)}
 .cx .cx-range .source-credit{padding-left:calc(100% * 100 / 1402);padding-right:0;text-align:left}
 
 /* Test participation notes are read in order, not compared across columns. */
-.cx-join-notes{display:block;max-width:960px;margin-top:24px;font-size:14px;line-height:1.85}
+.cx-join-notes{display:block;max-width:none;width:100%;margin-top:24px;font-size:14px;line-height:1.85}
 .cx-join-notes p{margin:0}
 .cx-join-notes p+p{margin-top:12px}
 
