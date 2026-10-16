@@ -6,7 +6,7 @@
       "revision": 13,
       "scope": "offline-no-ads-v1",
       "minVersion": "0.7.44",
-      "maxVersionExclusive": "0.7.48",
+      "maxVersionExclusive": "0.7.52",
       "effectiveDate": "2026-10-15",
       "intro": "누리말은 화면 자막과 영상 음성을 기기 안에서 번역하는 앱으로, 회원가입이 없고 이름이나 연락처 같은 개인정보를 수집하지 않습니다.",
       "sections": [
