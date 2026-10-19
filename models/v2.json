@@ -140,7 +140,7 @@
       "page": "https://huggingface.co/FunAudioLLM/SenseVoiceSmall",
       "source": "https://huggingface.co/csukuangfj/sherpa-onnx-sense-voice-zh-en-ja-ko-yue-2024-07-17",
       "minApp": "0.7.72",
-      "note": "영어·중국어·일본어·한국어·광둥어 음성을 글자로 바꿉니다",
+      "note": "알리바바가 공개한 음성 인식 모델로, 재생 중인 음성을 글자로 바꿉니다",
       "languages": [
         "en",
         "zh",
@@ -186,7 +186,7 @@
       "page": "https://developers.google.com/ml-kit/vision/text-recognition/v2",
       "source": "https://developers.google.com/ml-kit",
       "minApp": "0.7.72",
-      "note": "Google Play 서비스가 받아 관리하는 기본 글자 인식 모델입니다",
+      "note": "구글이 Play 서비스로 제공하는 글자 인식 모델로, 화면 속 자막을 읽습니다",
       "license": {
         "name": "ML Kit 약관",
         "url": "https://developers.google.com/ml-kit/terms",
@@ -209,7 +209,7 @@
       "page": "https://huggingface.co/pyannote/segmentation-3.0",
       "source": "https://huggingface.co/csukuangfj/sherpa-onnx-pyannote-segmentation-3-0",
       "minApp": "0.7.72",
-      "note": "여러 사람의 대사를 나누어 번역합니다",
+      "note": "pyannote와 알리바바가 공개한 화자 구분 모델로, 여러 사람의 대사를 나누어 번역합니다",
       "license": {
         "name": "MIT",
         "url": "https://huggingface.co/pyannote/segmentation-3.0/blob/main/LICENSE",
