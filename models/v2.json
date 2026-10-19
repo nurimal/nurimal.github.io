@@ -1,0 +1,239 @@
+{
+  "schemaVersion": 2,
+  "updated": "2026-10-19",
+  "models": [
+    {
+      "id": "ai",
+      "kind": "translation",
+      "runtime": "litertlm",
+      "channel": "stable",
+      "default": true,
+      "name": "Gemma 4 E2B",
+      "provider": "Google · Gemma",
+      "params": "E2B(실효 2B)",
+      "released": "2026-04-02",
+      "page": "https://huggingface.co/google/gemma-4-E2B",
+      "source": "https://huggingface.co/litert-community/gemma-4-E2B-it-litert-lm",
+      "quant": "mixed",
+      "minApp": "0.7.47",
+      "minRamGB": 6,
+      "label": "권장",
+      "note": "구글이 공개한 소형 언어 모델(SLM)로, 번역 품질이 가장 좋은 기본 번역 모델입니다",
+      "license": {
+        "name": "Apache-2.0",
+        "url": "https://www.apache.org/licenses/LICENSE-2.0",
+        "bundled": "sherpa-onnx-LICENSE"
+      },
+      "files": [
+        {
+          "name": "gemma-4-E2B-it.litertlm",
+          "role": "model",
+          "url": "https://huggingface.co/litert-community/gemma-4-E2B-it-litert-lm/resolve/b3ca0d2f076785a8f4b2219ddbd2bdb99954eae1/gemma-4-E2B-it.litertlm",
+          "bytes": 2588147712,
+          "sha256": "181938105e0eefd105961417e8da75903eacda102c4fce9ce90f50b97139a63c"
+        }
+      ],
+      "options": {
+        "prompt": "full"
+      }
+    },
+    {
+      "id": "ai-kanana-2-1.3b-8bit",
+      "kind": "translation",
+      "runtime": "litertlm",
+      "channel": "test",
+      "name": "Kanana 2 1.3B 8비트",
+      "provider": "Kakao · Kanana",
+      "params": "1.3B",
+      "released": "2026-07-28",
+      "page": "https://huggingface.co/kakaocorp/kanana-2-1.3b-instruct",
+      "source": "https://huggingface.co/a8testid/Kanana-2-1.3b-instruct-litertlm",
+      "quant": "int8",
+      "minApp": "0.7.72",
+      "minRamGB": 8,
+      "label": "빠름",
+      "note": "카카오가 공개한 1.3B 모델을 8비트로 변환했습니다. Gemma보다 번역이 빠르며 RAM 8GB 갤럭시에서 시험했습니다",
+      "languages": [
+        "en",
+        "zh",
+        "ja"
+      ],
+      "license": {
+        "name": "Kanana Open License",
+        "url": "https://huggingface.co/a8testid/Kanana-2-1.3b-instruct-litertlm/blob/ae0c4080f44b08c7f84cb09bcfc03306cf3405ee/LICENSE",
+        "copyright": "Kanana is licensed in accordance with the Kanana Open License Agreement. Copyright © KAKAO Corp. All Rights Reserved.",
+        "notices": [
+          "원본 Kanana-2 1.3B instruct 모델(kakaocorp/kanana-2-1.3b-instruct)을 LiteRT-LM 형식으로 변환하고 8비트로 양자화했습니다. 카카오 공식 변환본이 아닙니다.",
+          "Guidelines For Responsible AI 고지: https://huggingface.co/a8testid/Kanana-2-1.3b-instruct-litertlm/blob/ae0c4080f44b08c7f84cb09bcfc03306cf3405ee/RESPONSIBLE_AI.md"
+        ],
+        "credit": "Powered by Kanana"
+      },
+      "review": "docs/reports/kanana-license-reply-2026-10-16.md",
+      "files": [
+        {
+          "name": "Kanana-2-1.3b-instruct-8bit.litertlm",
+          "role": "model",
+          "url": "https://huggingface.co/a8testid/Kanana-2-1.3b-instruct-litertlm/resolve/ae0c4080f44b08c7f84cb09bcfc03306cf3405ee/Kanana-2-1.3b-instruct-8bit.litertlm",
+          "bytes": 1315994048,
+          "sha256": "934f233ccb7649bf4cfc7ed54ebdb2e3e11e11623858fa7402a3b86330fb87f4"
+        }
+      ],
+      "options": {
+        "prompt": "full"
+      }
+    },
+    {
+      "id": "ai-kanana-2-1.3b-mlp4",
+      "kind": "translation",
+      "runtime": "litertlm",
+      "channel": "test",
+      "name": "Kanana 2 1.3B MLP 4비트",
+      "provider": "Kakao · Kanana",
+      "params": "1.3B",
+      "released": "2026-07-28",
+      "page": "https://huggingface.co/kakaocorp/kanana-2-1.3b-instruct",
+      "source": "https://huggingface.co/a8testid/Kanana-2-1.3b-instruct-litertlm",
+      "quant": "mixed",
+      "minApp": "0.7.72",
+      "minRamGB": 8,
+      "label": "빠름·가벼움",
+      "note": "8비트보다 파일과 GPU 메모리가 작은 카카오 모델입니다. 짧은 영어 문장에서 조금 약하며 RAM 8GB 갤럭시에서 시험했습니다",
+      "languages": [
+        "en",
+        "zh",
+        "ja"
+      ],
+      "license": {
+        "name": "Kanana Open License",
+        "url": "https://huggingface.co/a8testid/Kanana-2-1.3b-instruct-litertlm/blob/ae0c4080f44b08c7f84cb09bcfc03306cf3405ee/LICENSE",
+        "copyright": "Kanana is licensed in accordance with the Kanana Open License Agreement. Copyright © KAKAO Corp. All Rights Reserved.",
+        "notices": [
+          "원본 Kanana-2 1.3B instruct 모델(kakaocorp/kanana-2-1.3b-instruct)을 LiteRT-LM 형식으로 변환하고 MLP 층은 4비트, 나머지는 8비트로 양자화했습니다. 카카오 공식 변환본이 아닙니다.",
+          "Guidelines For Responsible AI 고지: https://huggingface.co/a8testid/Kanana-2-1.3b-instruct-litertlm/blob/ae0c4080f44b08c7f84cb09bcfc03306cf3405ee/RESPONSIBLE_AI.md"
+        ],
+        "credit": "Powered by Kanana"
+      },
+      "review": "docs/reports/kanana-license-reply-2026-10-16.md",
+      "files": [
+        {
+          "name": "Kanana-2-1.3b-instruct-mlp4.litertlm",
+          "role": "model",
+          "url": "https://huggingface.co/a8testid/Kanana-2-1.3b-instruct-litertlm/resolve/ae0c4080f44b08c7f84cb09bcfc03306cf3405ee/Kanana-2-1.3b-instruct-mlp4.litertlm",
+          "bytes": 996769552,
+          "sha256": "a22c37d86b3ce41182297cdac973911bae29ecf20119c4e9bfdf81888b6649ab"
+        }
+      ],
+      "options": {
+        "prompt": "full"
+      }
+    },
+    {
+      "id": "speech",
+      "kind": "speech",
+      "runtime": "sherpa-onnx-sense-voice",
+      "channel": "stable",
+      "default": true,
+      "name": "SenseVoice",
+      "provider": "Alibaba · FunAudioLLM",
+      "params": "Small int8",
+      "released": "2024-07-17",
+      "page": "https://huggingface.co/FunAudioLLM/SenseVoiceSmall",
+      "source": "https://huggingface.co/csukuangfj/sherpa-onnx-sense-voice-zh-en-ja-ko-yue-2024-07-17",
+      "minApp": "0.7.72",
+      "note": "영어·중국어·일본어·한국어·광둥어 음성을 글자로 바꿉니다",
+      "languages": [
+        "en",
+        "zh",
+        "ja",
+        "ko",
+        "yue"
+      ],
+      "license": {
+        "name": "FunASR 모델 라이선스 1.1",
+        "url": "https://huggingface.co/FunAudioLLM/SenseVoiceSmall/blob/main/LICENSE",
+        "bundled": "SenseVoice-model-LICENSE",
+        "notices": [
+          "2024-07-17 int8 ONNX 변환 모델(csukuangfj/sherpa-onnx-sense-voice-zh-en-ja-ko-yue-2024-07-17)을 모델명과 출처를 밝혀 사용합니다."
+        ]
+      },
+      "review": "docs/reports/asr-survey-2026-10-17.md",
+      "files": [
+        {
+          "name": "model.int8.onnx",
+          "role": "model",
+          "url": "https://huggingface.co/csukuangfj/sherpa-onnx-sense-voice-zh-en-ja-ko-yue-2024-07-17/resolve/2365baeacb507f821a0c8120fcee3d484dba7a07/model.int8.onnx",
+          "bytes": 239233841,
+          "sha256": "c71f0ce00bec95b07744e116345e33d8cbbe08cef896382cf907bf4b51a2cd51"
+        },
+        {
+          "name": "tokens.txt",
+          "role": "tokens",
+          "url": "https://huggingface.co/csukuangfj/sherpa-onnx-sense-voice-zh-en-ja-ko-yue-2024-07-17/resolve/2365baeacb507f821a0c8120fcee3d484dba7a07/tokens.txt",
+          "bytes": 315894,
+          "sha256": "f449eb28dc567533d7fa59be34e2abca8784f771850c78a47fb731a31429a1dc"
+        }
+      ]
+    },
+    {
+      "id": "ocr",
+      "kind": "ocr",
+      "runtime": "system-mlkit",
+      "channel": "stable",
+      "default": true,
+      "name": "Google ML Kit",
+      "provider": "Google · ML Kit(Google Play 서비스)",
+      "released": "2024-08-07",
+      "page": "https://developers.google.com/ml-kit/vision/text-recognition/v2",
+      "source": "https://developers.google.com/ml-kit",
+      "minApp": "0.7.72",
+      "note": "Google Play 서비스가 받아 관리하는 기본 글자 인식 모델입니다",
+      "license": {
+        "name": "ML Kit 약관",
+        "url": "https://developers.google.com/ml-kit/terms",
+        "notices": [
+          "ML Kit은 오픈소스가 아니며 Google APIs 서비스 약관과 ML Kit 약관이 적용됩니다."
+        ]
+      },
+      "review": "docs/reports/play-release-review-2026-10-09.md",
+      "sizeHint": 20000000
+    },
+    {
+      "id": "speaker",
+      "kind": "speaker",
+      "runtime": "sherpa-onnx-diarization",
+      "channel": "stable",
+      "default": true,
+      "name": "pyannote · CAM++",
+      "provider": "CNRS · pyannote / Alibaba · 3D-Speaker",
+      "released": "2023-09-01",
+      "page": "https://huggingface.co/pyannote/segmentation-3.0",
+      "source": "https://huggingface.co/csukuangfj/sherpa-onnx-pyannote-segmentation-3-0",
+      "minApp": "0.7.72",
+      "note": "여러 사람의 대사를 나누어 번역합니다",
+      "license": {
+        "name": "MIT",
+        "url": "https://huggingface.co/pyannote/segmentation-3.0/blob/main/LICENSE",
+        "bundled": "pyannote-segmentation-LICENSE",
+        "notices": [
+          "화자 임베딩 3D-Speaker CAM++ zh_en common advanced는 Apache License 2.0(Alibaba DAMO)이며 sherpa-onnx용 변환 모델(csukuangfj/speaker-embedding-models)을 수정 없이 내려받아 사용합니다."
+        ]
+      },
+      "files": [
+        {
+          "name": "model.int8.onnx",
+          "role": "segmentation",
+          "url": "https://huggingface.co/csukuangfj/sherpa-onnx-pyannote-segmentation-3-0/resolve/9403a6902bb58e3d5ae8c7e77c3422de279db2e0/model.int8.onnx",
+          "bytes": 1540506,
+          "sha256": "d582f4b4c6b48205de7e0643c57df0df5615a3c176189be3fc461e9d18827b5d"
+        },
+        {
+          "name": "3dspeaker_speech_campplus_sv_zh_en_16k-common_advanced.onnx",
+          "role": "embedding",
+          "url": "https://huggingface.co/csukuangfj/speaker-embedding-models/resolve/0743f301363dec56491a490f6d6cbc9d67f9a3bf/3dspeaker_speech_campplus_sv_zh_en_16k-common_advanced.onnx",
+          "bytes": 28281164,
+          "sha256": "aa3cfc16963a10586a9393f5035d6d6b57e98d358b347f80c2a30bf4f00ceba2"
+        }
+      ]
+    }
+  ]
+}
