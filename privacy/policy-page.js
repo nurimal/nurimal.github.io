@@ -48,7 +48,7 @@
     if (match) render(match);
     else {
       root.replaceChildren(el('h1','개인정보 처리방침'),el('p','이 앱 버전에 적용되는 정책을 찾지 못했으니 앱에 표시된 정책을 확인해 주세요'));
-      note.textContent='현재 홈페이지에는 최신 정책만 게시합니다.';
+      note.textContent='현재 홈페이지에 게시된 정책의 적용 범위 밖입니다.';
     }
     select.addEventListener('change',() => render(policies.find(p=>p.id===select.value)));
   } catch (_) {
